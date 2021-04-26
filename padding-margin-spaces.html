@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>padding / margin / spaces -  Bootstrap 4</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <!--margin -> m | padding -> p
+        margin / padding top     -> mt / pt
+        margin / padding bottom  -> mb / pb
+        margin / padding left    -> ml / pl
+        margin / padding right   -> mr / pr
+        margin / padding for clases that set both left-right   -> mx / px
+        margin / padding for clases that set both top-bottom   -> my / py
+
+        where size is one of:
+        0 for clases that eliminate the margin or padding by setting it to 0
+        1 by default for classes that set the margin or padding to $spacer * .25
+        2 by default for classes that set the margin or padding to $spacer * .5
+        3 by default for classes that set the margin or padding to $spacer
+        4 by default for classes that set the margin or padding to $spacer * 1.2
+        5 by default for classes that set the margin or padding to $spacer * 3
+        auto for classes that set the margin to auto
+
+        you can add more sizes by adding entries to the #spacers Sass map variable
+    -->
+
+    <!--Margin top-->
+     <h1 class="bg-success mt-5">Hello bootstrap</h1>
+     <h1 class="bg-success mt-4">Hello bootstrap</h1>
+     <h1 class="bg-success mt-3">Hello bootstrap</h1>
+     <h1 class="bg-success mt-2">Hello bootstrap</h1>
+     <h1 class="bg-success mt-1">Hello bootstrap</h1>
+     <h1 class="bg-success mt-0">Hello bootstrap</h1>
+     <h1 class="bg-success mt-auto">Hello bootstrap</h1>
+
+     <hr>
+    <!--Margin bottom-->
+     <h1 class="bg-warning mb-5">Hello bootstrap</h1>
+     <h1 class="bg-warning mb-4">Hello bootstrap</h1>
+     <h1 class="bg-warning mb-3">Hello bootstrap</h1>
+     <h1 class="bg-warning mb-2">Hello bootstrap</h1>
+     <h1 class="bg-warning mb-1">Hello bootstrap</h1>
+     <h1 class="bg-warning mb-0">Hello bootstrap</h1>
+     <h1 class="bg-warning mb-auto">Hello bootstrap</h1>
+
+     <p class="bg-dark text-white">Hello <span class="bg-success text-white ml-5">world</span> world </p>
+     <p>Hello <span class="mr-5">world</span> world </p>
+
+    <hr>
+    <p class="">hello <span class="mx-5">my</span> world</p>
+
+    <hr>
+    <p>hello world</p>
+    <p class="my-5">hello world</p>
+    <p>hello world</p>
+
+    <hr>
+    <!--padding top-->
+    <h1 class="bg-success pt-5">Hello world</h1>
+    <h1 class="bg-success pt-4">Hello world</h1>
+    <h1 class="bg-success pt-3">Hello world</h1>
+    <h1 class="bg-success pt-2">Hello world</h1>
+    <h1 class="bg-success pt-1">Hello world</h1>
+    <h1 class="bg-success pt-0">Hello world</h1>
+    <hr>
+    <!--padding bottom-->
+    <h1 class="bg-warning pb-5">Hello world</h1>
+    <h1 class="bg-warning pb-4">Hello world</h1>
+    <h1 class="bg-warning pb-3">Hello world</h1>
+    <h1 class="bg-warning pb-2">Hello world</h1>
+    <h1 class="bg-warning pb-1">Hello world</h1>
+    <h1 class="bg-warning pb-0">Hello world</h1>
+
+    <p class="bg-dark text-white">Hello <span class="bg-success text-white px-5">world</span> world </p>
+
+    <hr>
+    <!--Add padding to the right, to the left, to the top and to the bottom-->
+    <p class="bg-success p-5">hello my world</p>
+
+
+</body>
+</body>
+</html>
